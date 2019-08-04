@@ -102,4 +102,3 @@ def constructDataObject(startYear: int, endYear: int, records: list):
         data.append({"year":startYear+i, "frequency":records[i]})
     return data
 
-app.listen(process.env.PORT || 3000)
