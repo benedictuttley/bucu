@@ -1,0 +1,26 @@
+html, body {
+    margin: 0;
+    height: 100%
+  }
+
+  svg {
+    display: block;
+    margin: 0 auto;
+}
+  
+  /*Rectangle bar class styling*/
+  
+  .bar {
+    fill: gray
+  }
+  
+  .bar:hover {
+    fill: darkslategray
+  }
+  
+  /*Text class styling*/
+  
+  .text {
+    fill: white;
+    font-family: sans-serif
+  }
